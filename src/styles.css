@@ -527,7 +527,7 @@ h6 {
 	font-size: 13px;
 	text-align: center;
 	padding:7px 0px;
-  height: 150px;
+  height: 300px;
   width: auto;
   display: flex;
   justify-content: center;
@@ -591,4 +591,27 @@ h6 {
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombra */
   transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+}
+
+.logo-footer{
+  padding: 20px 30px;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icons a {
+  margin: 0 30px; /* Ajusta este valor según lo cerca que quieras los iconos */
+  padding: 20px;
+}
+
+
+.footer-line {
+  border: none; /* Elimina el borde predeterminado */
+  border-top: 0.5px solid #42466B; /* Ajusta el color y el grosor de la línea */
+  width: 65%; /* Ajusta el ancho de la línea según tus necesidades */
+  margin: 0 auto; /* Centra la línea */
+  padding: 20px;
 }
