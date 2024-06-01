@@ -616,9 +616,6 @@ h6 {
   padding: 20px;
 }
 
-.mapa-google{
-
-}
 
 .img-video-lugar img{
   width: 1300px;
@@ -657,4 +654,8 @@ h6 {
   max-width: 600px;
   height: auto;
   margin: 10px 0;
+}
+
+.dia{
+  font-weight: bold;
 }
